@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'fragment';
+    src: url('../fonts/fragmentcore-webfont.eot');
+    src: url('../fonts/fragmentcore-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fragmentcore-webfont.woff2') format('woff2'),
+         url('../fonts/fragmentcore-webfont.woff') format('woff'),
+         url('../fonts/fragmentcore-webfont.ttf') format('truetype'),
+         url('../fonts/fragmentcore-webfont.svg#fragment_coreroman') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+/*Estructura básica del site*/
+
+/*Color corporativo: #1C2833; #A3E4D7*/
+
+#capaPadre{
+	height: 100%;
+	width: 100%;}
+
+header{
+	height: 80px;
+	background-color: #A3E4D7;
+
+	/*https://www.cssmatic.com/es/box-shadow*/
+	-webkit-box-shadow: 10px 10px 19px -4px rgba(0,0,0,0.39);
+	-moz-box-shadow: 10px 10px 19px -4px rgba(0,0,0,0.39);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
+	/*box shadow: anchura altura radioSombra radioPropagación;*/}
+
+#contenido{
+	height: 500px;
+	}
+
+footer{
+	height: 120px;
+	background-color: #1C2833;
+}
+
+/*Header*/
+
+#logo{
+	padding: 5px 0 0 0px; 
+	/*margin: top right bottom left;*/
+	float: right;
+	
+}
+
+.menu ul{
+	list-style: none;
+	padding-top: 30px;
+}
+
+.menu ul li a:link, .menu ul li a:visited, .menu ul li a:active{
+	padding-left: 45px;
+	text-decoration: none;
+	float: left;
+	/*font-family: 'Ubuntu Condensed', sans-serif;*/
+	font-family: 'fragment';
+	font-size: 1.75em;
+	cursor: default;
+	/*color: red;*/
+}
+
+a:link, a:visited, a:active{color: #1C2833;font-size: 1.75em; font-weight: bolder;}
+a:hover{color: orange; font-weight: bolder; text-shadow: 6px 6px 5px rgba(150, 150, 150, 1);}
+
+/*.menu ul li a:hover{color: green; font-weight: bolder;}*/
+
+#servicios{
+	text-align: center;
+	font-family: 'fragment';
+	font-size: 1.75em;
+	padding-top: 40px;
+	
+}
